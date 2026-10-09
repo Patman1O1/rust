@@ -1,8 +1,8 @@
 [workspace]
 resolver = "3"
 members = [
-    "frac",
-    "add_one",
+    "main",
+    "frac"
 ]
 
 [workspace.package]
