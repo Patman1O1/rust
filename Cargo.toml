@@ -1,18 +1,17 @@
 [workspace]
-name = "rust"
+resolver = "3"
+members = [
+    "frac",
+    "add_one",
+]
+
+[workspace.package]
 version = "0.1.0"
 authors = ["Patman1O1"]
 edition = "2024"
 description = ""
-readme = "README.md"
 repository = "https://github.com/Patman1O1/rust"
 license = "MIT"
-license-file = "LICENSE"
-build = "build.rs"
-resolver = "3"
-members = [
-    "frac",
-    "add_one"
-]
+readme = "README.md"
 
-[dependencies]
+[workspace.dependencies]
